@@ -5,8 +5,12 @@ export default defineNuxtConfig({
   modules: [
     '@nuxt/ui',
     // '@nuxtjs/axios',
-    'nuxt-auth-sanctum'
+    'nuxt-auth-sanctum',
+    // '@nuxtjs/cookies'
   ],
+  // axios: {
+  //   baseURL: process.env.API_BASE_URL || 'http://localhost:8000/api', // Your API URL
+  // },
   sanctum: {
     baseUrl: 'http://localhost:8000', // Your Laravel API
     mode: 'cookie',

@@ -48,6 +48,7 @@
             <UButton type="submit" :loading="loading" :disabled="loading" class="w-full bg-gray-400 text-gray-800 px-2 py-2">
               Login
             </UButton>
+            <p class="text-black mt-2">Don't have a account? <NuxtLink to="/auth/register" class="text-blue-500 hover:underline">Register</NuxtLink></p>
           </div>
         </form>
       </div>
